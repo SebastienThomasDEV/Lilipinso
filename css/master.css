@@ -1,0 +1,74 @@
+@import url(responsive.css);
+@import url(styles.css);
+
+/* FONT */
+
+@font-face {
+    font-family: 'futurabook';
+    src: url('fonts/futura_book_font-webfont') format('woff'),
+         url('fonts/futura_book_font-webfont') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('fonts/futura_medium_bt-webfont') format('woff'),
+         url('fonts/futura_medium_bt-webfont') format('woff2');
+         font-weight: medium;
+         font-style: medium;
+}
+
+@font-face {
+    font-family: 'futuralight';
+    src: url('fonts/futura-light-webfont') format('woff'),
+         url('fonts/futura-light-webfont') format('woff2');
+         font-weight: light;
+         font-style: light;
+}
+
+@font-face {
+    font-family: 'nimbusregita';
+    src: url('fonts/nimbusromno9l-regita-webfont') format('woff'),
+         url('fonts/nimbusromno9l-regita-webfontt') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'nimbussansregular';
+    src: url('fonts/nimbus-sans-l.regular-webfont') format('woff'),
+         url('fonts/nimbus-sans-l.regular-webfont') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url('fonts/sofia_pro_regular-webfont') format('woff'),
+         url('fonts/sofia_pro_regular-webfont') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofiaprobold';
+    src: url('fonts/sofia_pro_semibold-webfont') format('woff'),
+         url('fonts/sofia_pro_semibold-webfont') format('woff2');
+         font-weight: bold;
+         font-style: bold;
+}
+
+@font-face {
+    font-family: 'sofiaprolight';
+    src: url('fonts/sofia-pro-light-webfont') format('woff'),
+         url('fonts/sofia-pro-light-webfont') format('woff2');
+         font-weight: light;
+         font-style: light;
+}
+
+body{
+    font-family: 'futurabook, futuramedium, futuralight, nimbusregita, nimbussansregular, sofiapro, sofiaprobold, sofiaprolight';
+}
+
+

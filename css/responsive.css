@@ -1,0 +1,20 @@
+/* RESPONSIVE BTN */
+
+#container_img {
+    position: relative;
+}
+  
+#container_img #btn_banner {
+    position: absolute;
+    top: 60%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12, 11, 11);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+  
+
